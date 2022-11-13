@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/App-convert-valut/static/css/main.7acaea2f.css",
+    "main.js": "/App-convert-valut/static/js/main.07d3183d.js",
+    "index.html": "/App-convert-valut/index.html",
+    "main.7acaea2f.css.map": "/App-convert-valut/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/App-convert-valut/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
