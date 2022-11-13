@@ -1,16 +1,20 @@
+import { lazy, Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
+import ConvertValut from "pages/ConvertValut/ConvertValut";
+import ActualConvertValut from "pages/ActualConvertValut/ActualConvertValut";
+import Navigation from "./Navigation/Navigation";
+
+// const ConvertValut = lazy(() => import("pages/HomePage/HomePage"));
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<ConvertValut />} />
+          <Route path="/actualConvertValut" element={<ActualConvertValut />} />
+        </Route>
+      </Routes>
     </div>
-  );
+  )
 };
